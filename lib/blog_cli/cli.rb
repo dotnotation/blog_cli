@@ -69,7 +69,7 @@ class BlogCLI::CLI
   end
 
   def post_new
-    params = {}
+    params = {} #mass assignment
     # When we're creating a Blog Post, assuming the author already exists
     # How many SQL Statements should fire?
     # 1 SQL Statement - an "INSERT INTO posts"
